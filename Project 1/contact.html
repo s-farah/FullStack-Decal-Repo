@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Farah Shousha">
+  <meta name="author" content="Farah Shousha">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="header">
+    <div class="nav-content">
+      <a href="index.html" class="logo">Farah Shousha</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contact">
+    <h1>Contact Me</h1>
+    <p>If you’d like to reach out, send me a message or email <a href="mailto:farah_shousha@berkeley.edu">farah_shousha@berkeley.edu</a>.</p>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="a2c66a2f-22a8-496a-bbb3-6de95985dd47">
+
+      <label>Name</label>
+      <input type="text" name="name" placeholder="Your name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Your email" required>
+
+      <label>Message</label>
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
